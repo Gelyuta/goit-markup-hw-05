@@ -237,6 +237,22 @@ body {
   margin-bottom: 0;
 }
 
+.section-card {
+  position: relative;
+}
+
+.card-text {
+  margin: 0;
+  text-align: center;
+  color: var(--text-white);
+  padding-top: 27px;
+  padding-bottom: 27px;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--bcg-cards);
+  width: 100%;
+}
+
 /*Команда*/
 
 .profession {
