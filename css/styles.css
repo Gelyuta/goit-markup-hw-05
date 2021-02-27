@@ -438,6 +438,7 @@ body {
 .btn-text:focus {
   color: var(--text-white);
   background-color: var(--btn-blue);
+  cursor: pointer;
 }
 
 .item:hover,
@@ -614,6 +615,11 @@ body {
   background-color: var(--overlay);
 }
 
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .modal {
   width: 528px;
   height: 581px;
@@ -639,6 +645,7 @@ body {
   border: 1px solid var(--border-modal-close);
   border-radius: 50%;
   background-color: var(--bcg-white);
+  cursor: pointer;
 }
 
 .modal-close {
