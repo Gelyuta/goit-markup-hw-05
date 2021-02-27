@@ -603,3 +603,48 @@ body {
 .footer-svg .f-link + .f-link {
   margin-left: 10px;
 }
+
+/*Модальное окно*/
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--overlay);
+}
+
+.modal {
+  width: 528px;
+  height: 581px;
+  background-color: var(--bcg-white);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.btn-modal {
+  display: block;
+  padding: 0;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  border: 1px solid var(--border-modal-close);
+  border-radius: 50%;
+  background-color: var(--bcg-white);
+}
+
+.modal-close {
+  display: flex;
+  padding: 6px;
+
+  width: 30px;
+  height: 30px;
+}

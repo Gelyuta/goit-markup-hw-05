@@ -35,4 +35,5 @@
 
   /*Клиенты*/
   --border-logo: rgba(175, 177, 184, 1);
+  --border-modal-close: rgba(0, 0, 0, 0.1);
 }
